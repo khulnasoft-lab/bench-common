@@ -22,7 +22,7 @@ jobs:
         with:
           file: ./coverage.txt
       - name: Release
-        uses: goreleaser/goreleaser-action@v2
+        uses: goreleaser/goreleaser-action@v4
         with:
           version: v0.169.0
           args: release --rm-dist
