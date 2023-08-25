@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/fatih/color v1.15.0
-	github.com/golang/glog v1.0.0
+	github.com/golang/glog v1.1.2
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/onsi/ginkgo v1.16.5
