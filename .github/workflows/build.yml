@@ -33,7 +33,7 @@ jobs:
         with:
           file: ./coverage.txt
       - name: Dry-run release snapshot
-        uses: goreleaser/goreleaser-action@v4
+        uses: goreleaser/goreleaser-action@v5
         with:
           version: v0.169.0
           args: release --snapshot --skip-publish --rm-dist
